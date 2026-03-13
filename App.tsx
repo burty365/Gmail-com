@@ -21,6 +21,7 @@ export default function App() {
           margin: "0 auto",
         }}
       >
+        {/* Route Planner */}
         <button
           style={liveButton}
           onClick={() =>
@@ -30,18 +31,20 @@ export default function App() {
           Route Planner
         </button>
 
+        {/* Gmail Converter */}
         <button
-          <button
-  style={liveButton}
-  onClick={() => window.open("https://nuage-gmail-extractor.vercel.app", "_blank")}
->
-  Gmail Converter
-</button>
+          style={liveButton}
+          onClick={() =>
+            window.open(
+              "https://nuage-gmail-extractor.vercel.app",
+              "_blank"
+            )
           }
         >
           Gmail Converter
         </button>
 
+        {/* Future Tools */}
         <button style={comingButton}>Coming Soon</button>
         <button style={comingButton}>Coming Soon</button>
         <button style={comingButton}>Coming Soon</button>
@@ -71,4 +74,3 @@ const comingButton = {
   color: "#a7b4c8",
   fontSize: "18px",
 };
-// deployment trigger
