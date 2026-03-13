@@ -8,6 +8,13 @@ export default function App() {
       textAlign: "center",
       padding: "40px"
     }}>
+
+      <img 
+        src="https://i.imgur.com/placeholder.png"
+        alt="Nu Age Logo"
+        style={{width:"320px", marginBottom:"40px"}}
+      />
+
       <h1>Nu Age AI Tools</h1>
 
       <div style={{
@@ -30,6 +37,7 @@ export default function App() {
         <button style={comingButton}>Coming Soon</button>
 
       </div>
+
     </div>
   )
 }
@@ -38,7 +46,7 @@ const liveButton = {
   padding: "25px",
   borderRadius: "10px",
   border: "none",
-  background: "#2563eb",
+  background: "#6cc04a",
   color: "white",
   fontSize: "18px",
   cursor: "pointer"
